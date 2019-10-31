@@ -1,6 +1,21 @@
 body
 {
     display: relative;
+    
+}
+.login-form {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    padding: 20px;
+    background: #4bbab4;
+    left: 25%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    z-index: 1;
 }
 
 .login-face>img:hover
