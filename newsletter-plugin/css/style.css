@@ -2,3 +2,17 @@ body
 {
     display: relative;
 }
+
+.login-face>img:hover
+{
+    -webkit-transform: rotate(360deg) !important;
+          transform: rotate(360deg) !important;
+}
+
+.form
+{
+    width: 100%;
+    position: relative;
+    margin: 30px auto;
+    
+}
