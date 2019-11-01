@@ -1,6 +1,6 @@
 body
 {
-    display: relative;
+ 
     
 }
 .login-form {
@@ -119,7 +119,7 @@ div#submitForm {
     top: 100px !important;
 }
 
-}
+
 
 #promotion-header
 {
