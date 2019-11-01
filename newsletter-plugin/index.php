@@ -32,7 +32,7 @@ function newsletter_form()
     $content .= '<input type="email" id="email" placeholder="E-mail" name="email" required><i class="fa fa-envelope fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div class="input">';
-    $content .= '<input type="email" id="email" placeholder="City" name="town" required><i class="fa fa-home fa-1x"></i>'; 
+    $content .= '<input type="email" id="email" placeholder="City" name="city" required><i class="fa fa-home fa-1x"></i>'; 
     $content .= '</div>';
     $content .= '<div id="submitForm">';
     $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Subscribe">';
