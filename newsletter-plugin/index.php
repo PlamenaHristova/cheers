@@ -12,7 +12,7 @@
 function newsletter_form()
 {
 
-    $content = '';
+     $content = '';
     $content .= '<div class="login-form">';
     $content .= '<div class="popupCloseButton">X</div>';
     $content .= '<div class="login-face">';
@@ -23,20 +23,19 @@ function newsletter_form()
     $content .= '<section class="form">';
     $content .= '<form action="#">';
     $content .= '<div id="promotion-body">';
-    $content .= '<p id="promotion-body-text">Sign up for our Newsletter and we will keep updated whenever there is something new going on!</p>';
+    $content .= '<p id="promotion-body-text">Click the SUBSCRIBE button to get all the best events and news from Cheers!</p>';
     $content .= '</div>';
     $content .= '<div class="input">';
-    $content .= '<input type="text" id="username" placeholder="John Mckinsey" name="username" required><i class="fa fa-user fa-1x"></i>';
+    $content .= '<input type="text" id="username" placeholder="Name" name="username" required><i class="fa fa-user fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div class="input">';
-    $content .= '<input type="email" id="email" placeholder="mckinsey@hotmail.com" name="email" required><i class="fa fa-envelope fa-1x"></i>';
+    $content .= '<input type="email" id="email" placeholder="E-mail" name="email" required><i class="fa fa-envelope fa-1x"></i>';
+    $content .= '</div>';
+    $content .= '<div class="input">';
+    $content .= '<input type="email" id="email" placeholder="City" name="town" required><i class="fa fa-home fa-1x"></i>'; 
     $content .= '</div>';
     $content .= '<div id="submitForm">';
     $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Subscribe">';
-    $content .= '</div>';
-    $content .= '<div id="promotion-footer">';
-    $content .= '<p id="promotion-footer-text">Sure, I would like to receive newsletter with news about CHEERS via e-mail!</p>';
-    $content .= '</div>';
     $content .= '</form>';
     $content .= '</section>';
     $content .= '</div>';
